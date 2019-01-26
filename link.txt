@@ -1,1 +1,3 @@
 wget https://releases.wikimedia.org/mediawiki/1.32/mediawiki-1.32.0.tar.gz
+
+tar -xvzf mediawiki-1.32.0.tar.gz
