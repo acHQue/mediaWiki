@@ -25,8 +25,8 @@ wget https://releases.wikimedia.org/mediawiki/1.32/mediawiki-1.32.0.tar.gz
 
 #DO THIS BELLOW MANUALLY
 #sudo mysql
-#CREATE USER 'poweruser'@'localhost' IDENTIFIED BY 'password';
-#GRANT ALL ON *.* TO 'poweruser'@'localhost' with grant option;
+#CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+#GRANT ALL ON *.* TO 'username'@'localhost' with grant option;
 #https://www.youtube.com/watch?v=1L9u3tbUVBU
 
 #get extra php extenions bstring and xml
