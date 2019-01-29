@@ -1,0 +1,37 @@
+#Commands To Install MediaWiki
+#
+#
+#Get the all mighty tasksel package manager
+
+sudo apt-get tasksel
+
+#Run tasksel
+
+sudo tasksel (highligh LAMP and install)
+
+#Download the wiki and put the wiki in the right place.
+#https://www.mediawiki.org/wiki/Download
+
+wget https://releases.wikimedia.org/mediawiki/1.32/mediawiki-1.32.0.tar.gz
+
+#In the cd /var/www/ directory delete html folder.
+#rename the unzipped media wiki folder
+
+-tar xzvf mediawiki-1.32.0.tar.gz
+
+#make mysql accounts
+#The lastest mysql has removed the root account so that the root account connot be remotely connected to.
+#Only local logon allowed.
+
+#DO THIS BELLOW MANUALLY
+#sudo mysql
+#CREATE USER 'poweruser'@'localhost' IDENTIFIED BY 'password';
+#GRANT ALL ON *.* TO 'poweruser'@'localhost' with grant option;
+#https://www.youtube.com/watch?v=1L9u3tbUVBU
+
+#get extra php extenions bstring and xml
+sudo apt-get install php-mbstring -y
+sudo apt-get install php-xml -y
+sudo apt-get install phpmyadmin
+#make a database same name as the wikiconfig with phpmyadmin.
+#open localhost
