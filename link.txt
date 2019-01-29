@@ -1,6 +1,0 @@
-apt-get update
-apt-get full-upgrade
-apt-get install tasksel
-tasksel
-wget https://releases.wikimedia.org/mediawiki/1.32/mediawiki-1.32.0.tar.gz
-tar -xvzf mediawiki-1.32.0.tar.gz
