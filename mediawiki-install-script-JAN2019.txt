@@ -32,6 +32,6 @@ wget https://releases.wikimedia.org/mediawiki/1.32/mediawiki-1.32.0.tar.gz
 #get extra php extenions bstring and xml
 sudo apt-get install php-mbstring -y
 sudo apt-get install php-xml -y
-sudo apt-get install phpmyadmin
+sudo apt-get install phpmyadmin -y
 #make a database same name as the wikiconfig with phpmyadmin.
 #open localhost
